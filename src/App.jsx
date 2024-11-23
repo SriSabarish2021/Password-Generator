@@ -24,7 +24,7 @@ function App() {
     let gottedpass=""
     for(let id=0;id<curlen;id++){
       let rannum=Math.floor(Math.random()*charset.length)
-      gottedpass+=charset[rannum]
+      gottedpass+=charset.charAt(rannum)
     }
     getten(gottedpass)
   }
