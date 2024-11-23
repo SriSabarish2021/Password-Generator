@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.btn button{
+    height: 50px;
+    width: 130px;
+    background-color: rgb(239, 113, 55);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Exo 2';
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    transform-origin: center;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(93, 255, 217);
+
+}
